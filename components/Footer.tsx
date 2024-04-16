@@ -1,12 +1,11 @@
 import * as React from 'react'
-
-
-// TODO: merge the data and icons from PageSocial with the social links in Footer
+import styles from './styles.module.css'
 
 export const FooterImpl: React.FC = () => {
-
   return (
-   <></>
+    <footer className={styles.footer}>
+      {/* Removed content */}
+    </footer>
   )
 }
 
