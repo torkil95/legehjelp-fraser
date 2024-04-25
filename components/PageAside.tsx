@@ -5,6 +5,7 @@ import { Block, ExtendedRecordMap } from 'notion-types'
 import { getPageTweet } from '@/lib/get-page-tweet'
 
 import { PageActions } from './PageActions'
+
 import { PageSocial } from './PageSocial'
 
 export const PageAside: React.FC<{
