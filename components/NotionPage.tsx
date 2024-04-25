@@ -192,7 +192,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3
 
-  
 
   const footer = React.useMemo(() => <Footer />, [])
 
