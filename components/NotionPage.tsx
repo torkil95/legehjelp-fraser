@@ -192,7 +192,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3
 
-
   const footer = React.useMemo(() => <Footer />, [])
 
   if (router.isFallback) {
@@ -272,8 +271,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         searchNotion={config.isSearchEnabled ? searchNotion : null}
         footer={footer}
       />
-
-      <GitHubShareButton />
     </>
   )
 }
